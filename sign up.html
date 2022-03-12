@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sign up form</title>
+  <link rel="stylesheet" type="text/css" href="sign up.css">
+</head>
+<body>
+<div class="center">
+<form action="sign up.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>SIGN UP</h1>
+    <p><marquee style="color:red;">Please fill in this form to create an account.
+    </marquee></p> 
+    <label for="First name"><b>First Name</b></label>
+    <input type="text" placeholder="First name" name="Firstname" required>
+
+    <label for="Last name"><b>Last Name</b></label>
+    <input type="text" placeholder="Last name" name="Lastname" required>
+
+  
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <label for="repeatpass"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="repeatpass" required>
+
+    <label>
+      Remember me
+    </label><input type="checkbox" name="check" style="margin-bottom:15px">
+    </label>
+
+    <div class="p1">
+    <p>I aggree to the terms and conditions <input type="checkbox" name="check" required="please select the option">
+    </p>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</html>
