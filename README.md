@@ -1,7 +1,10 @@
 # contact_app
-Allows user to add contact.
-it includes:
-*login page, 
-*register page and 
-*contact form page.
+Instructions to open:
+download zip file,
+extract the zip file,
+click on contacts folder,
+click on login.html file
+run.
+
+This app allows user to add contacts 
 
